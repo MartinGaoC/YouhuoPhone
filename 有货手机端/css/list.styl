@@ -1,0 +1,95 @@
+rem(px)
+  return px/26rem
+
+nav
+  position relative
+  width 100%
+  height 2.25rem
+  background-image: linear-gradient(#323232,#414141);
+  a
+    position absolute
+    left .5rem
+    float left
+    width 2.25rem
+    height 2.25rem
+    background url(../images/icon_23.png) no-repeat center center
+  span
+    display inline-block
+    width 2.25rem
+    height 2.25rem
+    font-size .6rem
+    margin 0 auto
+  em
+    position absolute
+    right  .5rem
+    float right
+    width 2.25rem
+    height 2.25rem
+    background url(../images/icon_24.png) no-repeat center center
+.menuShadow
+  width 100%
+  height 2.25rem
+  border-top  1px solid hsla(0,0%,100%,.5);
+  background-image: linear-gradient(#323232,#414141);
+  display none
+  li
+    float left
+    box-sizing border-box
+    width 25%
+    height 100%
+    padding 0.5rem 0
+    a
+      display block
+      width rem(103)
+      height 100%
+      font-size .5rem
+      text-align center
+      color white
+      margin 0 auto
+    img
+      display block
+      margin 0 auto
+.nav_list
+  width 100%
+  height rem(33)
+  border-bottom 1px solid #999
+  ul
+    float left
+    width 100%
+    height 100%
+    li
+      float left
+      width 20%
+      text-align center
+      height 100%
+      line-height rem(33)
+      font-size .5rem
+      color #999
+    .nav_list_black
+      color black
+
+
+.list_box
+  float left
+  width 100%
+  .list_classify
+    float left
+    width 100%
+    position relative
+    li
+      float left
+      width: 6.9rem;
+      height: 12.65rem;
+      padding: .25rem .55rem 1rem;
+      img
+        width: 100%;
+        height: 9.2rem;
+      p
+        width: 92%;
+        font-size: .4rem;
+        margin-top: .4rem;
+      em
+        color: red;
+        font-size: .4rem;
+      a
+        color black

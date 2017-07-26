@@ -1,0 +1,109 @@
+nav {
+  position: relative;
+  width: 100%;
+  height: 2.25rem;
+  background-image: linear-gradient(#323232, #414141);
+}
+nav a {
+  position: absolute;
+  left: 0.5rem;
+  float: left;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url("../images/icon_23.png") no-repeat center center;
+}
+nav span {
+  display: inline-block;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: 0.6rem;
+  margin: 0 auto;
+}
+nav em {
+  position: absolute;
+  right: 0.5rem;
+  float: right;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url("../images/icon_24.png") no-repeat center center;
+}
+.menuShadow {
+  width: 100%;
+  height: 2.25rem;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  background-image: linear-gradient(#323232, #414141);
+  display: none;
+}
+.menuShadow li {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  padding: 0.5rem 0;
+}
+.menuShadow li a {
+  display: block;
+  width: 3.961538461538462rem;
+  height: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+.menuShadow li img {
+  display: block;
+  margin: 0 auto;
+}
+.nav_list {
+  width: 100%;
+  height: 1.269230769230769rem;
+  border-bottom: 1px solid #999;
+}
+.nav_list ul {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.nav_list ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  height: 100%;
+  line-height: 1.269230769230769rem;
+  font-size: 0.5rem;
+  color: #999;
+}
+.nav_list ul .nav_list_black {
+  color: #000;
+}
+.list_box {
+  float: left;
+  width: 100%;
+}
+.list_box .list_classify {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.list_box .list_classify li {
+  float: left;
+  width: 6.9rem;
+  height: 12.65rem;
+  padding: 0.25rem 0.55rem 1rem;
+}
+.list_box .list_classify li img {
+  width: 100%;
+  height: 9.2rem;
+}
+.list_box .list_classify li p {
+  width: 92%;
+  font-size: 0.4rem;
+  margin-top: 0.4rem;
+}
+.list_box .list_classify li em {
+  color: #f00;
+  font-size: 0.4rem;
+}
+.list_box .list_classify li a {
+  color: #000;
+}

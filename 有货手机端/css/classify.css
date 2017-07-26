@@ -1,0 +1,65 @@
+.search {
+  position: relative;
+  background-color: #f8f8f8;
+  padding: 0.325rem 0.5rem;
+}
+.search p {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  background: url("../images/icon_22.png") no-repeat;
+  background-position: 4% 50%;
+  background-color: #fff;
+  padding-left: 1.65rem;
+  border-radius: 1.5rem;
+  color: #999;
+  outline: none;
+  font-size: 0.5rem;
+}
+.one-list {
+  width: 100%;
+  height: 1.75rem;
+  background: #fff;
+  border-bottom: 2px solid #f8f8f8;
+}
+.one-list li {
+  float: left;
+  height: 0.75rem;
+  width: 25%;
+  box-sizing: border-box;
+  font-size: 0.5rem;
+  border-left: 1px solid #e6e6e6;
+  color: #e6e6e6;
+  text-align: center;
+  line-height: 0.75rem;
+  margin-top: 0.5rem;
+}
+.one-list :first-child {
+  border-left: none;
+}
+.one-list .one-list-black {
+  color: #333;
+}
+.two-list {
+  width: 100%;
+  display: none;
+  float: left;
+}
+.two-lists {
+  float: left;
+  width: 45%;
+  box-sizing: border-box;
+}
+.two-lists li {
+  height: 2.225rem;
+  line-height: 2.225rem;
+  padding: 0 1rem;
+  font-size: 0.6rem;
+}
+.two-lists li a {
+  color: #000;
+}
+.two-listSha {
+  display: block;
+}

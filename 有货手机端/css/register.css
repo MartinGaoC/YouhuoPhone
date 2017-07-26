@@ -1,0 +1,141 @@
+body {
+  background-color: #444;
+}
+header {
+  width: 100%;
+}
+.register {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+.register span {
+  float: left;
+  width: 1.538461538461539rem;
+  height: 1.538461538461539rem;
+  background: url("../images/icon_17.png") no-repeat;
+}
+.register p {
+  width: 5rem;
+  margin: 0 auto;
+  padding: 0.2rem 0;
+}
+.register_username {
+  width: 14rem;
+  height: 1.923076923076923rem;
+  background-color: #575757;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  border: 1px solid #606060;
+  border-radius: 0.192307692307692rem;
+}
+.register_username input {
+  width: 9.807692307692308rem;
+  height: 0.846153846153846rem;
+  background: #575757;
+  margin-top: 25px;
+  margin-left: 0.2rem;
+  border: none;
+  outline: none;
+}
+.register_username p {
+  float: left;
+  width: 2.769230769230769rem;
+  color: #fff;
+  font-size: 0.769230769230769rem;
+  margin: 20px 15px 0 15px;
+  text-align: right;
+}
+#register_username::-webkit-input-placeholder {
+  color: #6b6b6b;
+  font-size: 0.769230769230769rem;
+}
+.register_password {
+  width: 14rem;
+  height: 1.923076923076923rem;
+  background-color: #575757;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  border: 1px solid #606060;
+  border-radius: 0.192307692307692rem;
+}
+.register_password input {
+  width: 9.807692307692308rem;
+  height: 0.846153846153846rem;
+  background: #575757;
+  margin-top: 25px;
+  margin-left: 0.2rem;
+  border: none;
+  outline: none;
+}
+.register_password p {
+  float: left;
+  width: 2.769230769230769rem;
+  color: #fff;
+  font-size: 0.769230769230769rem;
+  margin: 20px 15px 0 15px;
+  text-align: right;
+}
+#register_password::-webkit-input-placeholder {
+  color: #6b6b6b;
+  font-size: 0.769230769230769rem;
+}
+.register_phone {
+  width: 14rem;
+  height: 1.923076923076923rem;
+  background-color: #575757;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  border: 1px solid #606060;
+  border-radius: 0.192307692307692rem;
+}
+.register_phone input {
+  width: 9.807692307692308rem;
+  height: 0.846153846153846rem;
+  background: #575757;
+  margin-top: 25px;
+  margin-left: 0.2rem;
+  border: none;
+  outline: none;
+}
+.register_phone p {
+  float: left;
+  width: 2.769230769230769rem;
+  color: #fff;
+  font-size: 0.769230769230769rem;
+  margin: 20px 15px 0 15px;
+  text-align: right;
+}
+#register_phone::-webkit-input-placeholder {
+  color: #6b6b6b;
+  font-size: 0.769230769230769rem;
+}
+.register_btn {
+  width: 14rem;
+  height: 1.923076923076923rem;
+  background-color: #a2a2a2;
+  line-height: 1.923076923076923rem;
+  font-size: 0.846153846153846rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.192307692307692rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+#prompt {
+  display: none;
+  position: fixed;
+  top: 35%;
+  left: 20%;
+  width: 8.461538461538462rem;
+  height: 3.076923076923077rem;
+  border-radius: 0.384615384615385rem;
+  text-align: center;
+  color: #fff;
+  line-height: 3.076923076923077rem;
+  font-size: 0.576923076923077rem;
+  background-color: rgba(0,0,0,0.6);
+}

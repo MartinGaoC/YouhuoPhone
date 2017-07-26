@@ -1,0 +1,214 @@
+body {
+  background: #f0f0f0;
+}
+nav {
+  position: relative;
+  width: 100%;
+  height: 2.25rem;
+  background-image: linear-gradient(#323232, #414141);
+}
+nav a {
+  position: absolute;
+  left: 0.5rem;
+  float: left;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url("../images/icon_23.png") no-repeat center center;
+}
+nav span {
+  float: left;
+  width: 4rem;
+  height: 2.25rem;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.25rem;
+  padding: 0 4.5rem;
+}
+nav em {
+  position: absolute;
+  right: 0.5rem;
+  z-index: 1;
+  float: right;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url("../images/icon_24.png") no-repeat center center;
+}
+.menuShadow {
+  width: 100%;
+  height: 2.25rem;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  background-image: linear-gradient(#323232, #414141);
+  display: none;
+}
+.menuShadow li {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  padding: 0.5rem 0;
+}
+.menuShadow li a {
+  display: block;
+  width: 3.961538461538462rem;
+  height: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+.menuShadow li img {
+  display: block;
+  margin: 0 auto;
+}
+section {
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  background: #fff;
+}
+.banner img {
+  width: 11.2rem;
+  margin: 0.75rem 2.4rem;
+}
+.banner h2 {
+  width: 90%;
+  height: 2.5rem;
+  font-size: 0.7rem;
+  color: #fff;
+  background: #515150;
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 0 5%;
+}
+.banner span {
+  display: block;
+  width: 90%;
+  font-size: 0.7rem;
+  color: #d0021b;
+  line-height: 2.5rem;
+  padding: 0 5%;
+  font-weight: bold;
+}
+.spinner {
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  background-color: #fff;
+}
+.spinner h1 {
+  font-size: 0.6rem;
+  padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+}
+.spinner span {
+  height: 100%;
+  width: 0.6rem;
+  background-color: #d0021b;
+  color: #fff;
+}
+.spinner em {
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  background: url("../images/icon_29.png") no-repeat center center;
+  transform: rotate(0deg);
+}
+.shadow {
+  width: 100%;
+  height: 4rem;
+  transform: translateY(-2.5rem);
+}
+.shadow .gray {
+  width: 100%;
+  height: 1rem;
+  background: #f0f0f0;
+}
+.shadow .shadow_list {
+  width: 100%;
+  height: 1.5rem;
+  padding: 0.25rem 0;
+  background-color: #fff;
+  font-size: 0.7rem;
+}
+.shadow .shadow_list a {
+  float: left;
+  width: 8rem;
+  height: 1.423076923076923rem;
+  color: #b0b0b0;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.423076923076923rem;
+}
+.shadow .shadow_list :first-child {
+  border-right: 1px solid #ccc;
+}
+.shadow .shadow_comment {
+  width: 100%;
+  height: 4.884615384615385rem;
+  font-size: 0.6rem;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+.shadow .shadow_comment p {
+  width: 80%;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+}
+.shoplist_mune {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  height: 1.5rem;
+  padding: 0.5rem 5%;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.shoplist_mune :first-child {
+  float: left;
+  width: 2.461538461538462rem;
+  height: 1.461538461538461rem;
+  background: url("../images/icon_30.png") no-repeat center center;
+  margin-right: 0.4rem;
+}
+.shoplist_mune :nth-child(2) {
+  float: left;
+  width: 2.461538461538462rem;
+  height: 1.461538461538461rem;
+  background: url("../images/icon_31.png") no-repeat center center;
+  margin-right: 0.4rem;
+}
+.shoplist_mune .shoplist_mune_like {
+  float: left;
+  width: 2.461538461538462rem;
+  height: 1.461538461538461rem;
+  background: url("../images/icon_32.png") no-repeat center center;
+}
+.shoplist_mune .shoplist_mune_red {
+  background: url("../images/icon_33.png") no-repeat center center;
+}
+.shoplist_mune :last-child {
+  float: right;
+  margin-top: -0.2rem;
+  width: 6rem;
+  height: 1.8rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: #eb0313;
+}
+#prompt {
+  display: none;
+  position: fixed;
+  top: 35%;
+  left: 20%;
+  width: 8.461538461538462rem;
+  height: 3.076923076923077rem;
+  border-radius: 0.384615384615385rem;
+  text-align: center;
+  color: #fff;
+  line-height: 3.076923076923077rem;
+  font-size: 0.576923076923077rem;
+  background-color: rgba(0,0,0,0.6);
+}

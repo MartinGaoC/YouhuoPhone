@@ -1,0 +1,181 @@
+html,body {
+    background-color: #f0f0f0;
+}
+.login {
+    width: 100%;
+    height: 5.26rem;
+    background: url(../images/header-bg.jpg)no-repeat;
+    background-size: 150% 150%;
+    background-position: 49% 4%;
+    padding-top:1px;
+    position: relative;
+}
+.login a {
+    display: block;
+    width: 6.1rem;
+    height: 2.05rem;
+    color: white;
+    text-align: center;
+    line-height: 2.05rem;
+    border: .1rem solid white;
+    font-size: .8rem;
+    margin: 1.5rem auto;
+}
+.login em {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: .5rem;
+    color: white;
+}
+#loginText {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    float: right;
+    width: 3rem;
+    height: 1rem;
+    background-color: #d0021b;
+    line-height: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+    text-align: center;
+    font-size: .5rem;
+}
+.login_photo {
+    float: left;
+    width: 3.15rem;
+    height: 3.15rem;
+    background: url(../images/icon_21.png) no-repeat;
+    background-size: 100%;
+    border: .1rem solid #6b6b6b;
+    border-radius: 50%;
+    margin-top: .7rem;
+
+}
+.login_username {
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: .8rem;
+    color: white;
+}
+.collection {
+    width: 100%;
+    height: 2.7rem;
+    background-color:rgba(0,0,0,.8) ;
+}
+.collection ul li {
+    float: left;
+    width: 5.2rem;
+    height: 1.47rem;
+    font-size: .5rem;
+    text-align: center;
+    line-height: 1.47rem;
+    border-right: 3px solid white;
+    margin: .4rem 0;
+}
+.collection ul li a{
+    color: white;
+}
+.collection ul li.collection-last {
+    border: none;
+}
+.order {
+    width: 100%;
+    height: 7rem;
+    background-color: white;
+    margin: 1rem 0;
+}
+.order_look {
+    width: 100%;
+    height: 2.7rem;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.order_look span{
+    line-height: 2.6rem;
+    font-size: .7rem;
+    margin-left: .5rem;
+    color: #444;
+}
+.order_look a {
+    float: right;
+    font-size: .5rem;
+    line-height: 2.6rem;
+    margin-right: .5rem;
+    color: #e0e0e0;
+}
+.order_icon {
+    width: 100%;
+    height: 4.1rem;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.order_icon ul {
+    margin-left: 1rem;
+}
+.order_icon ul li {
+    float: left;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    /*line-height: 4rem;*/
+}
+.order_icon ul li a {
+    display: block;
+    font-size: .5rem;
+    color: #353535;
+}
+.activity {
+    width: 100%;
+    height: 2.7rem;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+.activity a img {
+    margin:0 0.3rem .3rem 0;
+    vertical-align: middle;
+}
+.activity a{
+
+    line-height: 2.7rem;
+    display: block;
+    width: 90%;
+    height: 100%;
+    font-size: .6rem;
+    padding: 0 .65rem;
+    color: #353535;
+}
+.activity a em {
+    float: right;
+    font-size: .8rem;
+    color: #e0e0e0;
+}
+.activitys {
+    margin-top: 1rem;
+}
+.activity_money {
+    border-top: none;
+}
+.activity span {
+    position: absolute;
+    bottom: -3%;
+    left: 0%;
+    width: 3rem;
+    height: 0.77rem;
+    background-color: white;
+}
+.activity_red {
+    margin-top: 1rem;
+    background-color: #cf011a;
+}
+.activity_red a{
+    color: white;
+}
+.activity_sec {
+    margin-top: 1rem;
+}

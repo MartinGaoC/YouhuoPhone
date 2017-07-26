@@ -1,0 +1,187 @@
+nav {
+  position: relative;
+  width: 100%;
+  height: 2.25rem;
+  background-image: linear-gradient(#323232, #414141);
+}
+nav a {
+  position: absolute;
+  left: 0.5rem;
+  float: left;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url("../images/icon_23.png") no-repeat center center;
+}
+nav span {
+  float: left;
+  width: 4rem;
+  height: 2.25rem;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.25rem;
+  padding: 0 4.5rem;
+}
+nav em {
+  position: absolute;
+  right: 0.5rem;
+  z-index: 1;
+  float: right;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: url("../images/icon_24.png") no-repeat center center;
+}
+.menuShadow {
+  width: 100%;
+  height: 2.25rem;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  background-image: linear-gradient(#323232, #414141);
+  display: none;
+}
+.menuShadow li {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  padding: 0.5rem 0;
+}
+.menuShadow li a {
+  display: block;
+  width: 3.961538461538462rem;
+  height: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+.menuShadow li img {
+  display: block;
+  margin: 0 auto;
+}
+.search {
+  position: relative;
+  background-color: #f8f8f8;
+  padding: 0.325rem 0.5rem;
+}
+.search input {
+  box-sizing: border-box;
+  width: 84%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  background: url("../images/icon_22.png") no-repeat;
+  background-position: 4% 50%;
+  background-color: #fff;
+  padding-left: 1.65rem;
+  border-radius: 1.5rem;
+  color: #999;
+  outline: none;
+  border: none;
+  font-size: 0.5rem;
+}
+.search em {
+  margin-left: 0.3rem;
+  color: #666;
+  font-size: 0.576923076923077rem;
+}
+.list_box {
+  float: left;
+  width: 100%;
+}
+.list_box .list_classify {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.list_box .list_classify li {
+  float: left;
+  width: 6.9rem;
+  height: 12.65rem;
+  padding: 0.25rem 0.55rem 1rem;
+}
+.list_box .list_classify li img {
+  width: 100%;
+  height: 9.2rem;
+}
+.list_box .list_classify li p {
+  width: 92%;
+  font-size: 0.4rem;
+  margin-top: 0.4rem;
+}
+.list_box .list_classify li em {
+  color: #f00;
+  font-size: 0.4rem;
+}
+.list_box .list_classify li a {
+  color: #000;
+}
+.hot {
+  width: 95%;
+  height: 1rem;
+  padding: 0.5rem 0 0.5rem 5%;
+  background-color: #fff;
+}
+.hot span {
+  float: left;
+  font-size: 0.7rem;
+  color: #000;
+}
+.hot a {
+  float: left;
+  height: 1rem;
+  font-size: 0.5rem;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+  border: 1px solid #e0e0e0;
+  color: #000;
+  text-align: center;
+  line-height: 1rem;
+}
+.gary {
+  width: 100%;
+  height: 1rem;
+  background-color: #f0f0f0;
+}
+.lately {
+  width: 14.615384615384615rem;
+  height: 10rem;
+  background-color: #fff;
+  padding: 0.75rem;
+  border-top: 1px solid #ccc;
+}
+.lately .lately_top {
+  font-size: 0.5rem;
+  color: #b0b0b0;
+  width: 100%;
+  height: 0.8rem;
+}
+.lately .lately_top span {
+  float: right;
+  width: 1rem;
+  height: 0.8rem;
+  background: url("../images/icon_34.png") no-repeat center right;
+  background-size: 120%;
+  background-position: 300% 1%;
+}
+.lately_link {
+  width: 95%;
+  height: 1rem;
+}
+.lately_link a {
+  float: left;
+  height: 1rem;
+  font-size: 0.5rem;
+  padding: 0 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #e0e0e0;
+  color: #000;
+  text-align: center;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+}
+.lately_center {
+  font-size: 0.5rem;
+  color: #b0b0b0;
+  width: 100%;
+  margin-top: 1.5rem;
+  height: 0.8rem;
+}
